@@ -5,49 +5,62 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<title>Ремонт стиральных машин на дому в Улан-Удэ.
+<title>Изучение форм в HTML 5
 </title>
 
 <body>
-   <h1>Ремонт</h1>
+   <form action="#" method="post" enctype="multipart/form-data"></form>
+   <div>
+      <input disabled placeholder="Название поля" type="tel" name="username" value="">
+   </div>
+   <div>
+      <input type="password" name="userpass" value="">
 
-   <dl>
-      <dt>
-      <dd>стиральных машин</dd>
-      <dd>холодильников</dd>
-      <dd>телевизоров</dd>
-      <dd>на дому в</dd>
-      </dt>
-   </dl>
-   <span>в Улан-Удэ</span>
-   <section>
+   </div>
+   <div>
+
+      <p><input checked type="radio" name="beer" value="lager"> Светлое пиво</p>
+
+
+      <p><input type="radio" name="beer" value="dark"> Тёмное пиво</p>
+
+   </div>
+   <br>
+   <div>
+
+      <p><input type="radio" name="beer2" value="lager"> Светлое пиво</p>
+
+      <p><input checked type="radio" name="beer2" value="dark"> Тёмное пиво</p>
+
+   </div>
+   <div>
       <p>
-         Быстро.Выгодно Надежно.
-         Выезд мастера для выявления
-         причин неисправности по городу
-         бесплатно.Забираем, ремонтируем
-         и привозим телевизор заказчику.
-         <a href="https://remontstir.com">Доставка в одну сторону 30 рублей</a>
-         за километр.
+         <input type="checkbox" name="car" value="yes"> Наличие автомобилей
+         <input checket type="checkbox" name="car2" value="yes"> Наличие автомобилей2
+         <input type="checkbox" name="car" value="yes"> Наличие автомобилей3
+         <input type="checkbox" name="car" value="yes"> Наличие автомобилей4
+         <input type="checkbox" name="car" value="yes"> Наличие автомобилей5
+         <input type="checkbox" name="car" value="yes"> Наличие автомобилей6
       </p>
-      <h2>Гарантию на запчасти устанавливает производитель.</h2>
-      <ol>
+   </div>
+   <br>
+   <div>
+      <textarea name="text"></textarea>
 
-         <li>Бош</li>
-         <li>Аристон</li>
-         <li>Беко</li>
-         <li>Хаер</li>
-         <li>Самсунг</li>
-
-      </ol>
-      ​<h2>Газовые плиты</h2>
-      <div>
-         <pЗамена сопла от 300 рублей. Прочистка сопла от 300 рублей. Замена крана от 700 рублей. Замена термопара от
-            800 рублей. Стоимость проводимых работ может меняться исходя из сложности ремонта и марки газовой плиты.>
-            </p>
-      </div>
-   </section>
-
+   </div>
+   <br>
+   <div>
+      <select name="color">
+         <option selected value="red">Главная</option>
+         <option value="yellow">Желтый</option>
+         <option value="blue">Голубой</option>
+      </select>
+   </div>
+   <br>
+   <div>
+      <button type="submit">Отправить</button>
+      <button type="reset">Отправить</button>
+   </div>
 
 </body>
 
