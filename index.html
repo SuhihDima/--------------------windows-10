@@ -9,59 +9,74 @@
 </title>
 
 <body>
-   <form action="#" method="post" enctype="multipart/form-data"></form>
-   <div>
-      <input disabled placeholder="Название поля" type="tel" name="username" value="">
-   </div>
-   <div>
-      <input type="password" name="userpass" value="">
+   <form action="#" method="get">
+      <div>
+         <p>Имя</p>
+         <input placeholder="Имя" tabindex="1" name="username" type="text">
+      </div>
+      <div>
+         <p>
+            Пароль
+         </p>
+         <input tabindex="2" name="userpass" type="password">
+      </div>
+      <div>
+         <p>Телефон</p>
+         <input tabindex="3" name="userphone" type="tel">
+      </div>
+      <div>
+         <p>Пол</p>
+         <div>
+            <input checked tabindex="4" name="gender" type="radio" value="male"> Мужской
 
-   </div>
-   <div>
+         </div>
+         <div>
+            <input checked tabindex="4" name="gender" type="radio" value="male"> Женский
+         </div>
+      </div>
+      <div>
+         <p>Имущество</p>
+      </div>
+      <div>
+         <input checked tabindex="5" type="checkbox" name="bike" value="yes"> Велик
+      </div>
+      <div>
+         <input tabindex="6" type="checkbox" name="car" value="yes"> Машина
+      </div>
+      <div>
+         <input disabled tabindex="7" type="checkbox" name="hous" value="yes"> Квартира
+      </div>
+      <div>
+         <p>
+            Дополнительная информация
+         </p>
+         <textarea tabindex="8" name="text"></textarea>
+      </div>
 
-      <p><input checked type="radio" name="beer" value="lager"> Светлое пиво</p>
+      <div>
+         <p>Фото</p>
+      </div>
+      <div>
+         <input tabindex="8" type="file">
+      </div>
+      <div>
+         <p>Любимый цвет</p>
+         <select tabindex="9" name="color">
+            <option selected value="red">Красный</option>
+            <option value="green">Зеленый</option>
+            <option value="yellow">Желтый</option>
+         </select>
+      </div>
 
+      <div>
+         <p>Действия</p>
+         <button tabindex="10" type="submit">Отправить</button>
+         <button tabindex="11" type="reset">Очистить</button>
 
-      <p><input type="radio" name="beer" value="dark"> Тёмное пиво</p>
+      </div>
 
-   </div>
-   <br>
-   <div>
-
-      <p><input type="radio" name="beer2" value="lager"> Светлое пиво</p>
-
-      <p><input checked type="radio" name="beer2" value="dark"> Тёмное пиво</p>
-
-   </div>
-   <div>
-      <p>
-         <input type="checkbox" name="car" value="yes"> Наличие автомобилей
-         <input checket type="checkbox" name="car2" value="yes"> Наличие автомобилей2
-         <input type="checkbox" name="car" value="yes"> Наличие автомобилей3
-         <input type="checkbox" name="car" value="yes"> Наличие автомобилей4
-         <input type="checkbox" name="car" value="yes"> Наличие автомобилей5
-         <input type="checkbox" name="car" value="yes"> Наличие автомобилей6
-      </p>
-   </div>
-   <br>
-   <div>
-      <textarea name="text"></textarea>
-
-   </div>
-   <br>
-   <div>
-      <select name="color">
-         <option selected value="red">Главная</option>
-         <option value="yellow">Желтый</option>
-         <option value="blue">Голубой</option>
-      </select>
-   </div>
-   <br>
-   <div>
-      <button type="submit">Отправить</button>
-      <button type="reset">Отправить</button>
-   </div>
-
+      </textarea>
+   </form>
 </body>
 
 </html>
