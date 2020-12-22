@@ -4,8 +4,8 @@
    border: 0;
 }
 *,
-*::before,
-*::after {
+*:before,
+*:after {
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
@@ -18,12 +18,14 @@ a:focus,
 a:active {
    outline: none;
 }
+
 nav,
 footer,
 header,
 aside {
    display: block;
 }
+
 html,
 body {
    height: 100%;
@@ -40,6 +42,7 @@ button,
 textarea {
    font-family: inherit;
 }
+
 input::-ms-clear {
    display: none;
 }
@@ -50,12 +53,11 @@ button::-moz-focus-inner {
    padding: 0;
    border: 0;
 }
-a,a: visited;
- {
+a,
+a:visited {
    text-decoration: none;
 }
-a: hover;
- {
+a:hover {
    text-decoration: none;
 }
 ul li {
@@ -64,10 +66,17 @@ ul li {
 img {
    vertical-align: top;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6
-  
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

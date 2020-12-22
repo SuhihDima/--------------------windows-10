@@ -1,0 +1,18 @@
+h1 {
+   color: darkblue;
+   font-size: 20px;
+}
+h2 {
+   color: darkturquoise;
+   font-size: 25px;
+}
+.red {
+}
+.text {
+   color: darkmagenta;
+   line-height: 25;
+}
+.bold {
+   color: red;
+   font-weight: 700;
+}
