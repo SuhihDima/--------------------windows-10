@@ -1,17 +1,8 @@
-h1 {
-   color: darkblue;
-   font-size: 20px;
+.example-block {
+   width: 500px;
+   border: 1px solid #000;
 }
-h2 {
-   color: darkturquoise;
-   font-size: 25px;
-}
-
-text {
-   color: darkmagenta;
-   line-height: 25;
-}
-.bold {
-   color: red;
-   font-weight: 700;
+.example-string {
+   margin: 30px;
+   border: 1px solid#000;
 }
