@@ -1,14 +1,12 @@
-.example-block {
-   height: 100px;
-   min-width: 300px;
-
-   border: 1px solid #000;
+p {
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   max-width: 500px;
+   border: 10px solid fuchsia;
 }
-.example-string {
-   margin: 30px;
-}
-.example-image {
-   width: 30px;
-
-   max-width: 30px;
+.section {
+   text-align: center;
+   text-shadow: green;
+   width: bold;
 }
