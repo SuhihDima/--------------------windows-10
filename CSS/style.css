@@ -2,8 +2,35 @@ body {
    font-family: Georgia, "Times New Roman", Times, serif;
    margin: 200px 100px 100px 200px;
 }
+.p font-size {
+   font-size: 30px;
+}
+.textright {
+   text-align: center;
+}
+.h1 font-size {
+   font-weight: 700px;
+}
+.content {
+   font-style: italic;
+}
 p {
    margin: 30px;
    font-size: 50px, center;
    font-style: italic;
+}
+img {
+   padding: 500px/500%;
+}
+span {
+}
+.li {
+   color: aqua;
+}
+
+.block {
+   background-color: #255768;
+}
+.decoration {
+   text-decoration: line-through;
 }
