@@ -1,12 +1,9 @@
-p {
-   margin: auto;
-   margin-top: 50px;
-   margin-bottom: 50px;
-   max-width: 500px;
-   border: 10px solid fuchsia;
+body {
+   font-family: Georgia, "Times New Roman", Times, serif;
+   margin: 200px 100px 100px 200px;
 }
-.section {
-   text-align: center;
-   text-shadow: green;
-   width: bold;
+p {
+   margin: 30px;
+   font-size: 50px, center;
+   font-style: italic;
 }
