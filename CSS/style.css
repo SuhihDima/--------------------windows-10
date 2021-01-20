@@ -20,7 +20,9 @@ p {
    font-style: italic;
 }
 img {
-   padding: 500px/500%;
+   margin: 150px;
+   padding: 300px/300%;
+   width: 500px;
 }
 .img {
 }
@@ -32,11 +34,13 @@ img {
 }
 
 .block {
-   height: 30px;
+   margin: 30px;
+   margin-left: 300px;
+
    width: 100px;
    border-radius: 15px;
    box-shadow: 0 0 10px 0, #000;
-   background-position: center;
+   background-position: top left;
    background-color: #255768;
 }
 .decoration {
